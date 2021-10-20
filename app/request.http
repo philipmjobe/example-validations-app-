@@ -1,1 +1,10 @@
 ### USER CREATE
+
+POST http://localhost:3000/create 
+Content-Type: application/json
+
+{
+  "first_name": "Joe",
+  "last_name": "Chill",
+  "email": "joechill@gmail.com"
+}
