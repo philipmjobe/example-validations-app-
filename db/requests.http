@@ -1,0 +1,26 @@
+### USERS INDEX
+GET http://localhost:3000/users.json 
+
+### USERS SHOW
+GET http://localhost:3000/users/1.json 
+
+### USERS CREATE
+POST http://localhost:3000/users.json 
+Content-Type: application/json
+
+{
+  "first_name":
+  "last_name":
+  "email":
+}
+
+### USERS UPDATE
+PATCH http://localhost:3000/users/1.json 
+Content-Type: application/json
+
+{
+
+}
+
+### USERS DESTROY
+DELETE http://localhost:3000/users/1.json
